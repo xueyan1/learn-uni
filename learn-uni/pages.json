@@ -1,33 +1,65 @@
 {
 	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
-			{
-			"path": "pages/component/index",
+		 {
+			"path": "pages/component/index/index",
 			"style": {
-				"navigationBarTitleText": "组件"
+				"navigationBarTitleText": "组件列表"
 			}
 		},
-		
+		{
+			"path": "pages/component/view/index",
+			"style": {
+				"navigationBarTitleText": "View"
+			}
+		},
 		{
 			"path": "pages/api/index",
 			"style": {
 				"navigationBarTitleText": "接口"
 			}
 		},
-		
 		{
 			"path": "pages/index/index",
 			"style": {
 				"navigationBarTitleText": "我的"
 			}
+		}, {
+			"path": "pages/component/scroll-view/index",
+			"style": {
+				"navigationBarTitleText": "Scroll-View"
+			}
 		}
-		
-	
-
-	],
+	    ,{
+            "path" : "pages/component/swiper/index",
+            "style" : {"navigationBarTitleText": "轮播图"}
+        }
+        ,{
+            "path" : "pages/component/movable-view/index",
+            "style" : {"navigationBarTitleText": "可移动区域"}
+        }
+        ,{
+            "path" : "pages/component/cover/cover",
+            "style" : {
+				"navigationBarTitleText": "cover-view"
+			}
+        }
+        ,{
+            "path" : "pages/component/icon/icon",
+            "style" : {"navigationBarTitleText": "图标"}
+        }
+        ,{
+            "path" : "pages/component/text/text",
+            "style" : {"navigationBarTitleText": "文本"}
+        }
+        ,{
+            "path" : "pages/component/progress/progress",
+            "style" : {"navigationBarTitleText": "进度条"}
+        }
+    ],
 	"globalStyle": {
 		"navigationBarTextStyle": "black",
 		"navigationBarTitleText": "组件",
-		"navigationBarBackgroundColor": "#F8F8F8",
+		"navigationBarBackgroundColor": "#ffffff",
 		"backgroundColor": "#F8F8F8"
 	},
 	"tabBar": {
@@ -36,7 +68,7 @@
 		"borderStyle": "black",
 		"backgroundColor": "#ffffff",
 		"list": [{
-				"pagePath": "pages/component/index",
+				"pagePath": "pages/component/index/index",
 				"iconPath": "static/images/goods.png",
 				"selectedIconPath": "static/images/goods_active.png",
 				"text": "组件"
