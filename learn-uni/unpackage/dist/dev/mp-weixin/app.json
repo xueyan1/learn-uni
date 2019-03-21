@@ -1,8 +1,8 @@
 {
   "pages": [
-    "pages/index/index",
+    "pages/component/index",
     "pages/api/index",
-    "pages/component/index"
+    "pages/index/index"
   ],
   "subPackages": [],
   "window": {
@@ -22,13 +22,13 @@
         "pagePath": "pages/component/index",
         "iconPath": "static/images/goods.png",
         "selectedIconPath": "static/images/goods_active.png",
-        "text": "接口"
+        "text": "组件"
       },
       {
         "pagePath": "pages/api/index",
         "iconPath": "static/images/me.png",
         "selectedIconPath": "static/images/me_active.png",
-        "text": "组件"
+        "text": "接口"
       },
       {
         "pagePath": "pages/index/index",
