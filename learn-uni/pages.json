@@ -55,6 +55,10 @@
             "path" : "pages/component/progress/progress",
             "style" : {"navigationBarTitleText": "进度条"}
         }
+        ,{
+            "path" : "pages/component/form/button/button",
+            "style" : {"navigationBarTitleText": "按钮"}
+        }
     ],
 	"globalStyle": {
 		"navigationBarTextStyle": "black",

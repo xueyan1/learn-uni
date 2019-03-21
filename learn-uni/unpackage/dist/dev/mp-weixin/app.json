@@ -10,7 +10,8 @@
     "pages/component/cover/cover",
     "pages/component/icon/icon",
     "pages/component/text/text",
-    "pages/component/progress/progress"
+    "pages/component/progress/progress",
+    "pages/component/form/button/button"
   ],
   "subPackages": [],
   "window": {

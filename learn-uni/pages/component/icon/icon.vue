@@ -27,8 +27,7 @@ export default {
 			'search',
 			'clear'
 		];
-		// #endif
-		// #ifdef MP-ALIPAY
+	
 		this.iconType = [
 			'info',
 			'warn',
@@ -41,8 +40,7 @@ export default {
 			'success_no_circle',
 			'loading'
 		];
-		// #endif
-		// #ifdef MP-BAIDU
+
 		this.iconType = [
 			'success',
 			'info',
@@ -61,7 +59,7 @@ export default {
 			'radioSelected',
 			'radioUnselect'
 		];
-		// #endif
+		
 	}
 };
 </script>
