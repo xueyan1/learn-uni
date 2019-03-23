@@ -1,0 +1,102 @@
+
+.d_flex {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+}
+.d_center {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+}
+.d_between_center {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+}
+.d_column {
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+}
+/*  背景色 */
+.red {
+	background-color: red;
+}
+.blue {
+	background-color: blue;
+}
+.green {
+	background-color: green;
+}
+/* 边距 */
+.mt_20 {
+	margin-top: 40rpx;
+}
+.mt_10 {
+	margin-top: 20rpx;
+}
+.p_l_r_30 {
+	padding: 0 60rpx;
+}
+/* 字重 */
+.fw_700 {
+	font-weight: 700;
+}
+.ff_Medium {
+	font-family: PingFangSC-Medium;
+}
+/* 下边线 */
+.bb_eeeeee {
+  border-bottom: 1rpx #eeeeee solid;
+}
+.b_1_E5E5E5_solid {
+  border: 1px #e5e5e5 solid;
+}
+.b_1_FF3D33_solid {
+border: 1px solid #FF3D33;
+}
+/*隐藏字段*/
+.overflow {
+  overflow: hidden;
+  white-space: nowrap;
+  -o-text-overflow: ellipsis;
+     text-overflow: ellipsis;
+}
+/*两排字  */
+.overflow_scroll {
+  text-align: center;
+  display: -webkit-box;
+  overflow: hidden;
+  -o-text-overflow: ellipsis;
+     text-overflow: ellipsis;
+  word-break: break-all;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}
+.paneltitle {
+	height: 80rpx;
+	border-bottom: 1rpx #eeeeee solid;
+}
+

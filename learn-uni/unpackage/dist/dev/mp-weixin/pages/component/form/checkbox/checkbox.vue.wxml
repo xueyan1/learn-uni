@@ -1,0 +1,1 @@
+<template name="a2f06d70"><view class="_view a2f06d70"><checkbox-group class="_checkbox-group a2f06d70"><label class="_label a2f06d70 checkbox"><checkbox value="haha" checked="true" class="_checkbox a2f06d70"></checkbox>选中</label><label class="_label a2f06d70 checkbox"><checkbox value="haha" class="_checkbox a2f06d70"></checkbox>未选中</label></checkbox-group></view></template>

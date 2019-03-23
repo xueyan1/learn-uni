@@ -11,7 +11,8 @@
     "pages/component/icon/icon",
     "pages/component/text/text",
     "pages/component/progress/progress",
-    "pages/component/form/button/button"
+    "pages/component/form/button/button",
+    "pages/component/form/checkbox/checkbox"
   ],
   "subPackages": [],
   "window": {

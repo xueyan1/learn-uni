@@ -17,7 +17,7 @@
 		<navigator class="mt_20" url="../text/text" hover-class="none">文本</navigator>
 		<navigator class="mt_20" url="../progress/progress" hover-class="none">进度条</navigator>
 		<view class="paneltitle  ff_Medium fw_700 bb_eeeeee mt_20">表单组件</view>
-		<navigator class="mt_20" url="../form/button/button" hover-class="none">按钮</navigator>
+		<navigator class="mt_20" url="../form/button/button" hover-class="none">按钮</navigator><navigator class="mt_20" url="../form/checkbox/checkbox" hover-class="none">复选框</navigator>
 	</view>
 </template>
 

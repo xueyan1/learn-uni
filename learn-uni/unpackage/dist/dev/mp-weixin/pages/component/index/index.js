@@ -229,6 +229,14 @@ var render = function() {
           attrs: { url: "../form/button/button", "hover-class": "none" }
         },
         [_vm._v("按钮")]
+      ),
+      _c(
+        "navigator",
+        {
+          staticClass: "mt_20",
+          attrs: { url: "../form/checkbox/checkbox", "hover-class": "none" }
+        },
+        [_vm._v("复选框")]
       )
     ],
     1
