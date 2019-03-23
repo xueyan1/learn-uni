@@ -12,7 +12,9 @@
     "pages/component/text/text",
     "pages/component/progress/progress",
     "pages/component/form/button/button",
-    "pages/component/form/checkbox/checkbox"
+    "pages/component/form/checkbox/checkbox",
+    "pages/component/form/form/form",
+    "pages/component/form/input/input"
   ],
   "subPackages": [],
   "window": {

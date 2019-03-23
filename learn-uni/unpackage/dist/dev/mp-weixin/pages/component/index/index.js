@@ -119,6 +119,11 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 
 
 
+
+
+
+
+
 {
   data: function data() {
     return {};
@@ -237,6 +242,22 @@ var render = function() {
           attrs: { url: "../form/checkbox/checkbox", "hover-class": "none" }
         },
         [_vm._v("复选框")]
+      ),
+      _c(
+        "navigator",
+        {
+          staticClass: "mt_20",
+          attrs: { url: "../form/form/form", "hover-class": "none" }
+        },
+        [_vm._v("表单")]
+      ),
+      _c(
+        "navigator",
+        {
+          staticClass: "mt_20",
+          attrs: { url: "../form/input/input", "hover-class": "none" }
+        },
+        [_vm._v("输入框")]
       )
     ],
     1

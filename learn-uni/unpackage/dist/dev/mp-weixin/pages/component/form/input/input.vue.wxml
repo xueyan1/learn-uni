@@ -1,0 +1,1 @@
+<template name="5fde10be"><view class="_view 5fde10be p_l_r_30"><view class="_view 5fde10be">可自动聚焦的<input type="text" focus value="" placeholder="自动获得聚焦" class="_input 5fde10be" /></view><view class="_view 5fde10be">键盘右下角按钮显示为搜索<input type="text" confirm-type="search" placeholder="键盘右下角按钮显示为搜索" class="_input 5fde10be" /></view></view></template>

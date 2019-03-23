@@ -63,6 +63,14 @@
             "path" : "pages/component/form/checkbox/checkbox",
             "style" : {"navigationBarTitleText": "复选框"}
         }
+        ,{
+            "path" : "pages/component/form/form/form",
+            "style" : {"navigationBarTitleText": "表单"}
+        }
+        ,{
+            "path" : "pages/component/form/input/input",
+            "style" : {"navigationBarTitleText": "输入框"}
+        }
     ],
 	"globalStyle": {
 		"navigationBarTextStyle": "black",

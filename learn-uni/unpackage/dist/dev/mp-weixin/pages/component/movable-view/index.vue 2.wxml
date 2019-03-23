@@ -1,1 +1,0 @@
-<template name="15bf38eb"><view class="_view 15bf38eb"><movable-area class="_movable-area 15bf38eb"><movable-view x="{{x}}" y="{{y}}" direction="all" bindchange="handleProxy" data-eventid="{{'15bf38eb-0'}}" data-comkey="{{$k}}" class="_movable-view 15bf38eb">点我</movable-view></movable-area></view></template>
