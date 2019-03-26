@@ -111,12 +111,56 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 {
   data: function data() {
-    return {};
+    return {
+      inputValue: '',
+      changeValue: '' };
 
-
-  } };exports.default = _default;
+  },
+  methods: {
+    onKeyInput: function onKeyInput(e) {
+      this.inputValue = e.target.value;
+    },
+    replaceInput: function replaceInput(e) {
+      var value = e.target.value;
+      if (value == '11') {
+        this.changeValue = '2';
+      }
+    },
+    //输入123隐藏键盘
+    hideKeyboard: function hideKeyboard(e) {
+      var value = e.target.value;
+      if (value === '123') {
+        un.hideKeyboard();
+      }
+    } } };exports.default = _default;
 
 /***/ }),
 
@@ -135,35 +179,112 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _vm._m(0)
+  return _c("view", { staticClass: "p_l_r_30" }, [
+    _vm._m(0),
+    _vm._m(1),
+    _vm._m(2),
+    _c("view", { staticClass: "mt_20" }, [
+      _vm._v("实时获取输入值：" + _vm._s(_vm.inputValue)),
+      _c("input", {
+        attrs: {
+          type: "text",
+          value: "",
+          placeholder: "输入同步到view中",
+          eventid: "5fde10be-0"
+        },
+        on: { input: _vm.onKeyInput }
+      })
+    ]),
+    _c("view", { staticClass: "mt_20" }, [
+      _vm._v("控制输入的input：" + _vm._s(_vm.inputValue)),
+      _c("input", {
+        directives: [
+          {
+            name: "model",
+            rawName: "v-model",
+            value: _vm.changeValue,
+            expression: "changeValue"
+          }
+        ],
+        attrs: {
+          type: "text",
+          placeholder: "连续的两个1",
+          eventid: "5fde10be-1"
+        },
+        domProps: { value: _vm.changeValue },
+        on: {
+          input: [
+            function($event) {
+              if ($event.target.composing) {
+                return
+              }
+              _vm.changeValue = $event.target.value
+            },
+            _vm.replaceInput
+          ]
+        }
+      })
+    ]),
+    _c("view", { staticClass: "mt_20" }, [
+      _vm._v("控制键盘input"),
+      _c("input", {
+        ref: "input1",
+        attrs: {
+          type: "text",
+          placeholder: "输入123自动收起键盘",
+          eventid: "5fde10be-2"
+        },
+        on: { input: _vm.hideKeyboard }
+      })
+    ])
+  ])
 }
 var staticRenderFns = [
   function() {
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("view", { staticClass: "p_l_r_30" }, [
-      _c("view", {}, [
-        _vm._v("可自动聚焦的"),
-        _c("input", {
-          attrs: {
-            type: "text",
-            focus: "",
-            value: "",
-            placeholder: "自动获得聚焦"
-          }
-        })
-      ]),
-      _c("view", {}, [
-        _vm._v("键盘右下角按钮显示为搜索"),
-        _c("input", {
-          attrs: {
-            type: "text",
-            "confirm-type": "search",
-            placeholder: "键盘右下角按钮显示为搜索"
-          }
-        })
-      ])
+    return _c("view", { staticClass: "mt_10" }, [
+      _vm._v("可自动聚焦的"),
+      _c("input", {
+        attrs: {
+          type: "text",
+          focus: "",
+          value: "",
+          placeholder: "自动获得聚焦"
+        }
+      })
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("view", { staticClass: "mt_20" }, [
+      _vm._v("键盘右下角按钮显示为搜索"),
+      _c("input", {
+        attrs: {
+          type: "text",
+          "confirm-type": "search",
+          placeholder: "键盘右下角按钮显示为搜索"
+        }
+      })
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("view", { staticClass: "mt_20" }, [
+      _vm._v("最大输入长度为10"),
+      _c("input", {
+        attrs: {
+          type: "text",
+          "confirm-type": "search",
+          maxlength: "10",
+          placeholder: "最大输入长度为10"
+        }
+      })
     ])
   }
 ]
