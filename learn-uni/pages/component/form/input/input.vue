@@ -24,17 +24,64 @@
 		<view class="mt_20">
 			控制输入的input：{{ inputValue }}
 			<input
-			
 				type="text"
 				@input="replaceInput"
 				v-model="changeValue"
 				placeholder="连续的两个1"
 			/>
 		</view>
-		
+
 		<view class="mt_20">
 			控制键盘input
-			<input type="text" ref="input1" @input="hideKeyboard" placeholder="输入123自动收起键盘"  />
+			<input
+				type="text"
+				ref="input1"
+				adjust-position
+				@input="hideKeyboard"
+				placeholder="输入123自动收起键盘"
+			/>
+		</view>
+		<view class="mt_20">
+			这是一个数字键盘
+			<input type="number" ref="input1" adjust-position placeholder="这是一个数字输入框" />
+		</view>
+		<view class="mt_20">
+			密码输入的input
+			<input
+				password
+				type="text"
+				
+				adjust-position
+				placeholder="这是一个密码输入框"
+			/>
+		</view>
+		<view class="mt_20">
+			小数点输入的input
+			<input
+				password
+				type="digit"
+				adjust-position
+				placeholder="带小数点的数字键盘"
+			/>
+		</view>
+		<view class="mt_20">
+			身份证输入的input
+			<input
+				password
+				type="idcard"
+				adjust-position
+				placeholder="身份证输入键盘"
+			/>
+		</view>
+		<view class="mt_20">
+			红色的占位符的input
+			<input
+			placeholder-style="color:red"
+				password
+				type="idcard"
+				adjust-position
+				placeholder="红色的占位符"
+			/>
 		</view>
 	</view>
 </template>
@@ -44,24 +91,25 @@ export default {
 	data() {
 		return {
 			inputValue: '',
-			changeValue:''
+			changeValue: ''
 		};
 	},
 	methods: {
 		onKeyInput(e) {
 			this.inputValue = e.target.value;
 		},
-		replaceInput(e){
-			let value = e.target.value
-			if(value == '11'){
-				this.changeValue = '2'
+		replaceInput(e) {
+			let value = e.target.value;
+			if (value == '11') {
+				this.changeValue = '2';
 			}
 		},
 		//输入123隐藏键盘
-		hideKeyboard(e){
-			let value= e.target.value
-			if(value === '123'){
-				un.hideKeyboard()
+		hideKeyboard(e) {
+			let value = e.target.value;
+			debugger;
+			if (value == '123') {
+				uni.hideKeyboard();
 			}
 		}
 	}

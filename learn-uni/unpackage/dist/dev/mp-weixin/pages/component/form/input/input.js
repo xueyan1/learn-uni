@@ -95,7 +95,54 @@ __webpack_require__.r(__webpack_exports__);
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var _default =
+/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var _default =
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -157,10 +204,12 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
     //输入123隐藏键盘
     hideKeyboard: function hideKeyboard(e) {
       var value = e.target.value;
-      if (value === '123') {
-        un.hideKeyboard();
+      debugger;
+      if (value == '123') {
+        uni.hideKeyboard();
       }
     } } };exports.default = _default;
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ "./node_modules/@dcloudio/uni-mp-weixin/dist/index.js")["default"]))
 
 /***/ }),
 
@@ -231,12 +280,28 @@ var render = function() {
         ref: "input1",
         attrs: {
           type: "text",
+          "adjust-position": "",
           placeholder: "输入123自动收起键盘",
           eventid: "5fde10be-2"
         },
         on: { input: _vm.hideKeyboard }
       })
-    ])
+    ]),
+    _c("view", { staticClass: "mt_20" }, [
+      _vm._v("这是一个数字键盘"),
+      _c("input", {
+        ref: "input1",
+        attrs: {
+          type: "number",
+          "adjust-position": "",
+          placeholder: "这是一个数字输入框"
+        }
+      })
+    ]),
+    _vm._m(3),
+    _vm._m(4),
+    _vm._m(5),
+    _vm._m(6)
   ])
 }
 var staticRenderFns = [
@@ -283,6 +348,71 @@ var staticRenderFns = [
           "confirm-type": "search",
           maxlength: "10",
           placeholder: "最大输入长度为10"
+        }
+      })
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("view", { staticClass: "mt_20" }, [
+      _vm._v("密码输入的input"),
+      _c("input", {
+        attrs: {
+          password: "",
+          type: "text",
+          "adjust-position": "",
+          placeholder: "这是一个密码输入框"
+        }
+      })
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("view", { staticClass: "mt_20" }, [
+      _vm._v("小数点输入的input"),
+      _c("input", {
+        attrs: {
+          password: "",
+          type: "digit",
+          "adjust-position": "",
+          placeholder: "带小数点的数字键盘"
+        }
+      })
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("view", { staticClass: "mt_20" }, [
+      _vm._v("身份证输入的input"),
+      _c("input", {
+        attrs: {
+          password: "",
+          type: "idcard",
+          "adjust-position": "",
+          placeholder: "身份证输入键盘"
+        }
+      })
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("view", { staticClass: "mt_20" }, [
+      _vm._v("红色的占位符的input"),
+      _c("input", {
+        attrs: {
+          "placeholder-style": "color:red",
+          password: "",
+          type: "idcard",
+          "adjust-position": "",
+          placeholder: "红色的占位符"
         }
       })
     ])
