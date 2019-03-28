@@ -1,6 +1,6 @@
 {
 	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
-		 {
+		{
 			"path": "pages/component/index/index",
 			"style": {
 				"navigationBarTitleText": "组件列表"
@@ -28,48 +28,95 @@
 			"style": {
 				"navigationBarTitleText": "Scroll-View"
 			}
-		}
-	    ,{
-            "path" : "pages/component/swiper/index",
-            "style" : {"navigationBarTitleText": "轮播图"}
-        }
-        ,{
-            "path" : "pages/component/movable-view/index",
-            "style" : {"navigationBarTitleText": "可移动区域"}
-        }
-        ,{
-            "path" : "pages/component/cover/cover",
-            "style" : {
+		}, {
+			"path": "pages/component/swiper/index",
+			"style": {
+				"navigationBarTitleText": "轮播图"
+			}
+		}, {
+			"path": "pages/component/movable-view/index",
+			"style": {
+				"navigationBarTitleText": "可移动区域"
+			}
+		}, {
+			"path": "pages/component/cover/cover",
+			"style": {
 				"navigationBarTitleText": "cover-view"
 			}
-        }
-        ,{
-            "path" : "pages/component/icon/icon",
-            "style" : {"navigationBarTitleText": "图标"}
-        }
-        ,{
-            "path" : "pages/component/text/text",
-            "style" : {"navigationBarTitleText": "文本"}
-        }
-        ,{
-            "path" : "pages/component/progress/progress",
-            "style" : {"navigationBarTitleText": "进度条"}
-        }
-        ,{
-            "path" : "pages/component/form/button/button",
-            "style" : {"navigationBarTitleText": "按钮"}
-        }
-        ,{
-            "path" : "pages/component/form/checkbox/checkbox",
-            "style" : {"navigationBarTitleText": "复选框"}
-        }
-        ,{
-            "path" : "pages/component/form/form/form",
-            "style" : {"navigationBarTitleText": "表单"}
-        }
-        ,{
-            "path" : "pages/component/form/input/input",
-            "style" : {"navigationBarTitleText": "输入框"}
+		}, {
+			"path": "pages/component/icon/icon",
+			"style": {
+				"navigationBarTitleText": "图标"
+			}
+		}, {
+			"path": "pages/component/text/text",
+			"style": {
+				"navigationBarTitleText": "文本"
+			}
+		}, {
+			"path": "pages/component/progress/progress",
+			"style": {
+				"navigationBarTitleText": "进度条"
+			}
+		}, {
+			"path": "pages/component/form/button/button",
+			"style": {
+				"navigationBarTitleText": "按钮"
+			}
+		}, {
+			"path": "pages/component/form/checkbox/checkbox",
+			"style": {
+				"navigationBarTitleText": "复选框"
+			}
+		}, {
+			"path": "pages/component/form/form/form",
+			"style": {
+				"navigationBarTitleText": "表单"
+			}
+		}, {
+			"path": "pages/component/form/input/input",
+			"style": {
+				"navigationBarTitleText": "输入框"
+			}
+		}, {
+			"path": "pages/component/form/label/label",
+			"style": {
+				"navigationBarTitleText": "标签"
+			}
+		}, {
+			"path": "pages/component/form/picker/picker",
+			"style": {
+				"navigationBarTitleText": "选择器"
+			}
+		}, {
+			"path": "pages/component/form/picker-view/picker-view",
+			"style": {
+				"navigationBarTitleText": "滚动选择器"
+			}
+		}, {
+			"path": "pages/component/form/radio/radio",
+			"style": {
+				"navigationBarTitleText": "单项选择器"
+			}
+		}, {
+			"path": "pages/component/form/slider/slider",
+			"style": {
+				"navigationBarTitleText": "滑动条"
+			}
+		}, {
+			"path": "pages/component/form/switch/switch",
+			"style": {
+				"navigationBarTitleText": "开关"
+			}
+		}, {
+			"path": "pages/component/form/textarea/textarea",
+			"style": {
+				"navigationBarTitleText": "多行输入"
+			}
+		}
+	    ,{
+            "path" : "pages/component/navigator/navigator",
+            "style" : {"navigationBarTitleText": "导航"}
         }
     ],
 	"globalStyle": {

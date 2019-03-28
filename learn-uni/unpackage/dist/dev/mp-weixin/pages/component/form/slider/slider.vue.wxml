@@ -1,0 +1,1 @@
+<template name="63437308"><view class="_view 63437308 p_l_r_30 mb_50"><view class="_view 63437308 mt_10">设置step</view><slider backgroundColor="red" block-size="20" block-color="gree" bindchange="handleProxy" step="5" value="5" max="200" show-value data-eventid="{{'63437308-0'}}" data-comkey="{{$k}}" class="_slider 63437308" /></view></template>

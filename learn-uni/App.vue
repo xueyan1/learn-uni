@@ -39,18 +39,40 @@ export default {
 .green {
 	background-color: green;
 }
+/*  背景 */
+.bg_f8f8f8{
+background-color: #f8f8f8;	
+}
 
 
-
+/* 字体 */
+.fontsize_20{
+	font-size: 20upx;
+}
+.fontsize_22{
+	font-size: 22upx;
+}
+.fontsize_24{
+	font-size: 24upx;
+}
+.fontsize_26{
+	font-size: 26upx;
+}
+.fontsize_28{
+	font-size: 28upx;
+}
 /* 边距 */
 .mt_20 {
-	margin-top: 40upx;
-}
-.mt_10 {
 	margin-top: 20upx;
 }
+.mt_10 {
+	margin-top: 10upx;
+}
 .p_l_r_30 {
-	padding: 0 60upx;
+	padding: 0 30upx;
+}
+.mb_50{
+	margin-bottom: 50upx;
 }
 /* 字重 */
 .fw_700 {

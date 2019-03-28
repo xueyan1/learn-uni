@@ -1,5 +1,5 @@
 <template>
-	<view class="p_l_r_30 ">
+	<view class="p_l_r_30 mb_50 ">
 		<view class="paneltitle  ff_Medium fw_700 bb_eeeeee">视图容器</view>
 		<navigator class="mt_20" url="../view/index" hover-class="none">View</navigator>
 		<navigator class="mt_20" url="../scroll-view/index" hover-class="none">
@@ -23,6 +23,19 @@
 		</navigator>
 		<navigator class="mt_20" url="../form/form/form" hover-class="none">表单</navigator>
 		<navigator class="mt_20" url="../form/input/input" hover-class="none">输入框</navigator>
+		<navigator class="mt_20" url="../form/label/label" hover-class="none">标签</navigator>
+		<navigator class="mt_20" url="../form/picker/picker" hover-class="none">选择器</navigator>
+		<navigator class="mt_20" url="../form/picker-view/picker-view" hover-class="none">
+			滚动选择器
+		</navigator>
+		<navigator class="mt_20" url="../form/radio/radio" hover-class="none">单项选择器</navigator>
+		<navigator class="mt_20" url="../form/slider/slider" hover-class="none">滑动条</navigator>
+		<navigator class="mt_20" url="../form/switch/switch" hover-class="none">开关</navigator>
+		<navigator class="mt_20" url="../form/textarea/textarea" hover-class="none">
+			多行输入框
+		</navigator>	<navigator class="mt_20" url="../navigator/navigator" hover-class="none">
+			导航
+		</navigator>
 	</view>
 </template>
 

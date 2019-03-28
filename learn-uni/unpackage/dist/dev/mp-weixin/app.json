@@ -14,7 +14,15 @@
     "pages/component/form/button/button",
     "pages/component/form/checkbox/checkbox",
     "pages/component/form/form/form",
-    "pages/component/form/input/input"
+    "pages/component/form/input/input",
+    "pages/component/form/label/label",
+    "pages/component/form/picker/picker",
+    "pages/component/form/picker-view/picker-view",
+    "pages/component/form/radio/radio",
+    "pages/component/form/slider/slider",
+    "pages/component/form/switch/switch",
+    "pages/component/form/textarea/textarea",
+    "pages/component/navigator/navigator"
   ],
   "subPackages": [],
   "window": {

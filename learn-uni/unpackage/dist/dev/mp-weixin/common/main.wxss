@@ -50,15 +50,38 @@
 .green {
 	background-color: green;
 }
+/*  背景 */
+.bg_f8f8f8{
+background-color: #f8f8f8;
+}
+/* 字体 */
+.fontsize_20{
+	font-size: 20rpx;
+}
+.fontsize_22{
+	font-size: 22rpx;
+}
+.fontsize_24{
+	font-size: 24rpx;
+}
+.fontsize_26{
+	font-size: 26rpx;
+}
+.fontsize_28{
+	font-size: 28rpx;
+}
 /* 边距 */
 .mt_20 {
-	margin-top: 40rpx;
-}
-.mt_10 {
 	margin-top: 20rpx;
 }
+.mt_10 {
+	margin-top: 10rpx;
+}
 .p_l_r_30 {
-	padding: 0 60rpx;
+	padding: 0 30rpx;
+}
+.mb_50{
+	margin-bottom: 50rpx;
 }
 /* 字重 */
 .fw_700 {

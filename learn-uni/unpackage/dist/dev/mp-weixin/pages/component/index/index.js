@@ -124,6 +124,19 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
 {
   data: function data() {
     return {};
@@ -148,7 +161,7 @@ var render = function() {
   var _c = _vm._self._c || _h
   return _c(
     "view",
-    { staticClass: "p_l_r_30 " },
+    { staticClass: "p_l_r_30 mb_50 " },
     [
       _c("view", { staticClass: "paneltitle  ff_Medium fw_700 bb_eeeeee" }, [
         _vm._v("视图容器")
@@ -258,6 +271,73 @@ var render = function() {
           attrs: { url: "../form/input/input", "hover-class": "none" }
         },
         [_vm._v("输入框")]
+      ),
+      _c(
+        "navigator",
+        {
+          staticClass: "mt_20",
+          attrs: { url: "../form/label/label", "hover-class": "none" }
+        },
+        [_vm._v("标签")]
+      ),
+      _c(
+        "navigator",
+        {
+          staticClass: "mt_20",
+          attrs: { url: "../form/picker/picker", "hover-class": "none" }
+        },
+        [_vm._v("选择器")]
+      ),
+      _c(
+        "navigator",
+        {
+          staticClass: "mt_20",
+          attrs: {
+            url: "../form/picker-view/picker-view",
+            "hover-class": "none"
+          }
+        },
+        [_vm._v("滚动选择器")]
+      ),
+      _c(
+        "navigator",
+        {
+          staticClass: "mt_20",
+          attrs: { url: "../form/radio/radio", "hover-class": "none" }
+        },
+        [_vm._v("单项选择器")]
+      ),
+      _c(
+        "navigator",
+        {
+          staticClass: "mt_20",
+          attrs: { url: "../form/slider/slider", "hover-class": "none" }
+        },
+        [_vm._v("滑动条")]
+      ),
+      _c(
+        "navigator",
+        {
+          staticClass: "mt_20",
+          attrs: { url: "../form/switch/switch", "hover-class": "none" }
+        },
+        [_vm._v("开关")]
+      ),
+      _c(
+        "navigator",
+        {
+          staticClass: "mt_20",
+          attrs: { url: "../form/textarea/textarea", "hover-class": "none" }
+        },
+        [_vm._v("多行输入框")]
+      ),
+      _c(
+        "navigator",
+        {
+          staticClass: "mt_20",
+          attrs: { url: "../navigator/navigator", "hover-class": "none" }
+        },
+        [_vm._v("导航")]
       )
     ],
     1

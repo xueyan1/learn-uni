@@ -1,0 +1,1 @@
+<template name="41ac81b0"><view class="_view 41ac81b0 p_l_r_30 mb_50"><view class="_view 41ac81b0 mt_10">输入区域高度自适应，不会出现滚动条</view><textarea value="" placeholder auto-height class="_textarea 41ac81b0" /><view class="_view 41ac81b0 mt_20">占位符是红色</view><textarea placeholder="占位符是红色" placeholder-style="color:red" class="_textarea 41ac81b0" /></view></template>
