@@ -143,26 +143,26 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _vm._m(0)
-}
-var staticRenderFns = [
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("view", [
-      _c("view", {}, [
-        _vm._v("flex-direction: row"),
-        _c("text", [_vm._v("\\n 横向布局")])
+  return _c(
+    "view",
+    { staticClass: "p_l_r_30 mb_50" },
+    [
+      _c("view", { staticClass: "paneltitle  ff_Medium fw_700 bb_eeeeee" }, [
+        _vm._v("网络")
       ]),
-      _c("view", { staticClass: "d_flex" }, [
-        _c("view", { staticClass: "red" }, [_vm._v("A")]),
-        _c("view", { staticClass: "blue" }, [_vm._v("B")]),
-        _c("view", { staticClass: "green" }, [_vm._v("C")])
-      ])
-    ])
-  }
-]
+      _c(
+        "navigator",
+        {
+          staticClass: "mt_10",
+          attrs: { url: "../view/index", "hover-class": "none" }
+        },
+        [_vm._v("发起请求")]
+      )
+    ],
+    1
+  )
+}
+var staticRenderFns = []
 render._withStripped = true
 
 

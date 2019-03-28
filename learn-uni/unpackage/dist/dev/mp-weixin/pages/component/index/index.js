@@ -137,6 +137,21 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 {
   data: function data() {
     return {};
@@ -169,7 +184,7 @@ var render = function() {
       _c(
         "navigator",
         {
-          staticClass: "mt_20",
+          staticClass: "mt_10",
           attrs: { url: "../view/index", "hover-class": "none" }
         },
         [_vm._v("View")]
@@ -177,7 +192,7 @@ var render = function() {
       _c(
         "navigator",
         {
-          staticClass: "mt_20",
+          staticClass: "mt_10",
           attrs: { url: "../scroll-view/index", "hover-class": "none" }
         },
         [_vm._v("Scroll-view")]
@@ -185,7 +200,7 @@ var render = function() {
       _c(
         "navigator",
         {
-          staticClass: "mt_20",
+          staticClass: "mt_10",
           attrs: { url: "../swiper/index", "hover-class": "none" }
         },
         [_vm._v("轮播图")]
@@ -193,7 +208,7 @@ var render = function() {
       _c(
         "navigator",
         {
-          staticClass: "mt_20",
+          staticClass: "mt_10",
           attrs: { url: "../movable-view/index", "hover-class": "none" }
         },
         [_vm._v("可移动区域")]
@@ -201,7 +216,7 @@ var render = function() {
       _c(
         "navigator",
         {
-          staticClass: "mt_20",
+          staticClass: "mt_10",
           attrs: { url: "../cover/cover", "hover-class": "none" }
         },
         [_vm._v("cover-view（cover-image）")]
@@ -214,7 +229,7 @@ var render = function() {
       _c(
         "navigator",
         {
-          staticClass: "mt_20",
+          staticClass: "mt_10",
           attrs: { url: "../icon/icon", "hover-class": "none" }
         },
         [_vm._v("图标")]
@@ -222,7 +237,7 @@ var render = function() {
       _c(
         "navigator",
         {
-          staticClass: "mt_20",
+          staticClass: "mt_10",
           attrs: { url: "../text/text", "hover-class": "none" }
         },
         [_vm._v("文本")]
@@ -230,7 +245,7 @@ var render = function() {
       _c(
         "navigator",
         {
-          staticClass: "mt_20",
+          staticClass: "mt_10",
           attrs: { url: "../progress/progress", "hover-class": "none" }
         },
         [_vm._v("进度条")]
@@ -243,7 +258,7 @@ var render = function() {
       _c(
         "navigator",
         {
-          staticClass: "mt_20",
+          staticClass: "mt_10",
           attrs: { url: "../form/button/button", "hover-class": "none" }
         },
         [_vm._v("按钮")]
@@ -251,7 +266,7 @@ var render = function() {
       _c(
         "navigator",
         {
-          staticClass: "mt_20",
+          staticClass: "mt_10",
           attrs: { url: "../form/checkbox/checkbox", "hover-class": "none" }
         },
         [_vm._v("复选框")]
@@ -259,7 +274,7 @@ var render = function() {
       _c(
         "navigator",
         {
-          staticClass: "mt_20",
+          staticClass: "mt_10",
           attrs: { url: "../form/form/form", "hover-class": "none" }
         },
         [_vm._v("表单")]
@@ -267,7 +282,7 @@ var render = function() {
       _c(
         "navigator",
         {
-          staticClass: "mt_20",
+          staticClass: "mt_10",
           attrs: { url: "../form/input/input", "hover-class": "none" }
         },
         [_vm._v("输入框")]
@@ -275,7 +290,7 @@ var render = function() {
       _c(
         "navigator",
         {
-          staticClass: "mt_20",
+          staticClass: "mt_10",
           attrs: { url: "../form/label/label", "hover-class": "none" }
         },
         [_vm._v("标签")]
@@ -283,7 +298,7 @@ var render = function() {
       _c(
         "navigator",
         {
-          staticClass: "mt_20",
+          staticClass: "mt_10",
           attrs: { url: "../form/picker/picker", "hover-class": "none" }
         },
         [_vm._v("选择器")]
@@ -291,7 +306,7 @@ var render = function() {
       _c(
         "navigator",
         {
-          staticClass: "mt_20",
+          staticClass: "mt_10",
           attrs: {
             url: "../form/picker-view/picker-view",
             "hover-class": "none"
@@ -302,7 +317,7 @@ var render = function() {
       _c(
         "navigator",
         {
-          staticClass: "mt_20",
+          staticClass: "mt_10",
           attrs: { url: "../form/radio/radio", "hover-class": "none" }
         },
         [_vm._v("单项选择器")]
@@ -310,7 +325,7 @@ var render = function() {
       _c(
         "navigator",
         {
-          staticClass: "mt_20",
+          staticClass: "mt_10",
           attrs: { url: "../form/slider/slider", "hover-class": "none" }
         },
         [_vm._v("滑动条")]
@@ -318,7 +333,7 @@ var render = function() {
       _c(
         "navigator",
         {
-          staticClass: "mt_20",
+          staticClass: "mt_10",
           attrs: { url: "../form/switch/switch", "hover-class": "none" }
         },
         [_vm._v("开关")]
@@ -326,7 +341,7 @@ var render = function() {
       _c(
         "navigator",
         {
-          staticClass: "mt_20",
+          staticClass: "mt_10",
           attrs: { url: "../form/textarea/textarea", "hover-class": "none" }
         },
         [_vm._v("多行输入框")]
@@ -334,10 +349,110 @@ var render = function() {
       _c(
         "navigator",
         {
-          staticClass: "mt_20",
+          staticClass: "mt_10",
           attrs: { url: "../navigator/navigator", "hover-class": "none" }
         },
         [_vm._v("导航")]
+      ),
+      _c(
+        "view",
+        { staticClass: "paneltitle  ff_Medium fw_700 bb_eeeeee mt_20" },
+        [_vm._v("媒体组件")]
+      ),
+      _c(
+        "navigator",
+        {
+          staticClass: "mt_10",
+          attrs: { url: "../media/audio/audio", "hover-class": "none" }
+        },
+        [_vm._v("音频")]
+      ),
+      _c(
+        "navigator",
+        {
+          staticClass: "mt_10",
+          attrs: { url: "../media/camera/camera", "hover-class": "none" }
+        },
+        [_vm._v("照相机")]
+      ),
+      _c(
+        "navigator",
+        {
+          staticClass: "mt_10",
+          attrs: { url: "../media/image/image", "hover-class": "none" }
+        },
+        [_vm._v("图片")]
+      ),
+      _c(
+        "navigator",
+        {
+          staticClass: "mt_10",
+          attrs: { url: "../media/video/video", "hover-class": "none" }
+        },
+        [_vm._v("视频")]
+      ),
+      _c(
+        "navigator",
+        {
+          staticClass: "mt_10",
+          attrs: {
+            url: "../media/live-player/live-player",
+            "hover-class": "none"
+          }
+        },
+        [_vm._v("直播")]
+      ),
+      _c(
+        "view",
+        { staticClass: "paneltitle  ff_Medium fw_700 bb_eeeeee mt_20" },
+        [_vm._v("地图")]
+      ),
+      _c(
+        "navigator",
+        {
+          staticClass: "mt_10",
+          attrs: { url: "../map/map", "hover-class": "none" }
+        },
+        [_vm._v("地图")]
+      ),
+      _c(
+        "view",
+        { staticClass: "paneltitle  ff_Medium fw_700 bb_eeeeee mt_20" },
+        [_vm._v("画布")]
+      ),
+      _c(
+        "navigator",
+        {
+          staticClass: "mt_10",
+          attrs: { url: "../canvas/canvas", "hover-class": "none" }
+        },
+        [_vm._v("画布")]
+      ),
+      _c(
+        "view",
+        { staticClass: "paneltitle  ff_Medium fw_700 bb_eeeeee mt_20" },
+        [_vm._v("浏览器")]
+      ),
+      _c(
+        "navigator",
+        {
+          staticClass: "mt_10",
+          attrs: { url: "../web-view/web-view", "hover-class": "none" }
+        },
+        [_vm._v("浏览器")]
+      ),
+      _c(
+        "view",
+        { staticClass: "paneltitle  ff_Medium fw_700 bb_eeeeee mt_20" },
+        [_vm._v("开发平台数据")]
+      ),
+      _c(
+        "navigator",
+        {
+          staticClass: "mt_10",
+          attrs: { url: "../open-data/open-data", "hover-class": "none" }
+        },
+        [_vm._v("开发平台数据")]
       )
     ],
     1

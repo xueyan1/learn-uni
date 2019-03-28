@@ -1,14 +1,7 @@
 <template>
-	<view>
-		<view class="">
-			flex-direction: row
-			<text>\n 横向布局</text>
-		</view>
-		<view class="d_flex">
-			<view class="red">A</view>
-			<view class="blue">B</view>
-			<view class="green">C</view>
-		</view>
+	<view class="p_l_r_30 mb_50">
+	<view class="paneltitle  ff_Medium fw_700 bb_eeeeee">网络</view>
+	<navigator class="mt_10" url="../view/index" hover-class="none">发起请求</navigator>
 	</view>
 </template>
 

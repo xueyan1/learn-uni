@@ -22,7 +22,17 @@
     "pages/component/form/slider/slider",
     "pages/component/form/switch/switch",
     "pages/component/form/textarea/textarea",
-    "pages/component/navigator/navigator"
+    "pages/component/navigator/navigator",
+    "pages/component/media/audio/audio",
+    "pages/component/media/camera/camera",
+    "pages/component/media/image/image",
+    "pages/component/media/video/video",
+    "pages/component/media/live-player/live-player",
+    "pages/component/map/map",
+    "pages/component/canvas/canvas",
+    "pages/component/web-view/web-view",
+    "pages/component/open-data/open-data",
+    "pages/api/net/request/request"
   ],
   "subPackages": [],
   "window": {

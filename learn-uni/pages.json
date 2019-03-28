@@ -118,6 +118,46 @@
             "path" : "pages/component/navigator/navigator",
             "style" : {"navigationBarTitleText": "导航"}
         }
+        ,{
+            "path" : "pages/component/media/audio/audio",
+            "style" : {"navigationBarTitleText": "音频"}
+        }
+        ,{
+            "path" : "pages/component/media/camera/camera",
+            "style" : {"navigationBarTitleText": "照相机"}
+        }
+        ,{
+            "path" : "pages/component/media/image/image",
+            "style" : {"navigationBarTitleText": "图片"}
+        }
+        ,{
+            "path" : "pages/component/media/video/video",
+            "style" : {"navigationBarTitleText": "视频"}
+        }
+        ,{
+            "path" : "pages/component/media/live-player/live-player",
+            "style" : { "navigationBarTitleText": "直播"}
+        }
+        ,{
+            "path" : "pages/component/map/map",
+            "style" : {"navigationBarTitleText": "地图"}
+        }
+        ,{
+            "path" : "pages/component/canvas/canvas",
+            "style" : {"navigationBarTitleText": "画布"}
+        }
+        ,{
+            "path" : "pages/component/web-view/web-view",
+            "style" : {"navigationBarTitleText": "浏览器"}
+        }
+        ,{
+            "path" : "pages/component/open-data/open-data",
+            "style" : {"navigationBarTitleText": "平台开发数据"}
+        }
+        ,{
+            "path" : "pages/api/net/request/request",
+            "style" : {}
+        }
     ],
 	"globalStyle": {
 		"navigationBarTextStyle": "black",
